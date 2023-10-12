@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06 - Revisão e desafios</title>
+</head>
+<body>
+    
+    <h1>Revisão</h1>
+
+    <h4>Aprendemos:</h4>
+    <ul type=>
+        <li>Comentários por linha utilizando "//"</li>
+        <br>
+        <li>Comentários por bloco utilizando "/* */"</li>
+        <br>
+        <li>Variáveis usando let ou var
+            <ul type="circle">
+                <li>let produto = 'Arroz'</li>
+                <li>var preco = 7.77</li>
+            </ul>
+        <br>
+        <li>Duas maneiras de transformar o preco em vírgula (valor brasileiro)
+            <ul type="circle">
+                <li>console.log(new Int1.NumberFormat('pt-br').format(variavelAqui))</li>
+                <li>document.write(`Preço total ${variavel.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`)</li>
+            </ul>
+        </li>
+        <br>
+        <li>Criar constantes (Valores que não podem ser alterados)
+            <ul type="circle">
+                <li>const nome = 'Edson Maia'</li>
+                <li>const peso = 83.5</li>
+                <li>const altura = 1.75</li>
+                <li>const imc = peso / (altura * altura)</li>
+            </ul>
+        </li>
+        <br>
+        <li>Utilizar método para diminuir quantidade de casas decimais com <strong>toFixed()</strong>
+            <ul type="circle">
+                <li>let compra = 2000.99</li>
+                <li>let desconto = 200.99</li>
+                <li>let compraComDesconto = compra - desconto</li>
+                <li>console.log(<strong>compraComDesconto.toFixed(2)</strong>)</li>
+                <li>saída: 1800.00 </li>
+            </ul>
+        </li>
+    </ul>
+
+    
+    <script src="/js/aula06.js"></script>
+</body>
+</html>
